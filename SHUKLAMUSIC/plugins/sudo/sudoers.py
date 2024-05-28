@@ -54,7 +54,7 @@ async def sudoers_list(client, message: Message):
     reply_markups = InlineKeyboardMarkup(keyboard)
   
     #await message.reply_photo(photo="https://telegra.ph/file/7fceefa2fb3e21f5fd84e.mp4", caption="**» ᴄʜᴇᴄᴋ sᴜᴅᴏ ʟɪsᴛ ʙʏ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.**\n\n**» ɴᴏᴛᴇ:**  ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ. ", reply_markup=reply_markups)
-    await message.reply_video(video="https://telegra.ph/file/4280cf1e51e5c452ffb70.jpg", caption="**» ᴄʜᴇᴄᴋ sᴜᴅᴏ ʟɪsᴛ ʙʏ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.**\n\n**» ɴᴏᴛᴇ:**  ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ. ", reply_markup=reply_markups)
+    await message.reply_video(video="https://telegra.ph/file/f6d90d9136a7f77809a31.png", caption="**» ᴄʜᴇᴄᴋ sᴜᴅᴏ ʟɪsᴛ ʙʏ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ.**\n\n**» ɴᴏᴛᴇ:**  ᴏɴʟʏ sᴜᴅᴏ ᴜsᴇʀs ᴄᴀɴ ᴠɪᴇᴡ. ", reply_markup=reply_markups)
     
 
 @app.on_callback_query(filters.regex("^check_sudo_list$"))
@@ -92,8 +92,8 @@ async def check_sudo_list(client, callback_query: CallbackQuery):
             await callback_query.message.edit_caption(caption=caption, reply_markup=reply_markup)
 
 @app.on_callback_query(filters.regex("^back_to_main_menu$"))
-async def back_to_main_menu(client, callback_query: CallbackQuery):
-    keyboard = [[InlineKeyboardButton("👻 ᴠɪᴇᴡ sᴜᴅᴏʟɪsᴛ 👻", callback_data="check_sudo_list")]]
+async def back_to_main_menu(client, callback_query: CsᴜᴅᴏʟɪsᴛallbackQuery):
+    keyboard = [[InlineKeyboardButton("🖕 ᴠɪᴇᴡ sᴜᴅᴏʟɪsᴛ 🖕", callback_data="check_sudo_list")]]
     reply_markupes = InlineKeyboardMarkup(keyboard)
     await callback_query.message.edit_caption(caption="**➥ 𝐍ɪᴄʜᴇ 𝐃ɪᴋʜᴀ 𝐑ᴀʜᴀ 𝐇ᴀɪ 𝐒ᴜᴅᴏʟɪsᴛ 𝐃ᴇᴋʜ 𝐋ᴇ**\n\n**» 𝐍ᴏᴛᴇ:**  𝐎ɴʟʏ 𝐒ᴜᴅᴏ 𝐔sᴇʀs 𝐂ᴀɴ ᴠ𝐯ᴇᴡ... ", reply_markup=reply_markupes)
 
