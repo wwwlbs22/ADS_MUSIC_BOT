@@ -53,7 +53,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/KING0712/QUEEN_MUSIC",
+    "https://github.com/wwwlbs22/ADS_MUSIC_BOT",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/l_TOXIC_ll_GROUP_l")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/l_TOXIC_ll_GROUP_l")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Quiz2xf")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ARTIST_i_NETWORK")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -141,7 +141,7 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/f6d90d9136a7f77809a31.png"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/ae7d1efb7e043ce53df53.jpg"
