@@ -4,7 +4,7 @@ import random
 import requests
 from SHUKLAMUSIC import app 
 
-SUPPORT_CHAT = "KING_BHAI_BABY"
+SUPPORT_CHAT = "Quiz2xf"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
