@@ -106,7 +106,7 @@ VC_TAG = [ "**➠ 𝐆ᴏᴏᴅ 𝐌ᴏʀɴɪɴɢ, 𝐊ᴇsᴇ 𝐇ᴏ 🐱**",
 async def mentionall(client, message):
     chat_id = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
-        return await message.reply("๏ 𝐈s 𝐂ᴏᴍᴍᴀɴᴅ 𝐊ᴏ 𝐆ʀᴏᴜᴘ 𝐌ᴇ 𝐔sᴇ 𝐊ᴀʀ 𝐘ᴀʜᴀ 𝐆𝐇𝐀𝐍𝐓𝐀 𝐊ɪsɪᴋᴏ 𝐆𝐌 𝐊ᴀʀᴜɴɢɪ 😏")
+        return await message.reply("๏ 𝐈s 𝐂ᴏᴍᴍᴀɴᴅ 𝐊ᴏ 𝐆ʀᴏᴜᴘ 𝐌ᴇ 𝐔sᴇ 𝐊ᴀʀ 𝐘ᴀʜᴀ 𝐆𝐇𝐀𝐍𝐓𝐀 𝐊ɪsɪᴋᴏ 𝐆𝐌 𝐊ᴀʀᴜɴɢɪ 😁🤨")
 
     is_admin = False
     try:
