@@ -16,7 +16,7 @@ vdo_link = {}
 
 keyboard = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("🖤 𝐂ʟᴏsᴇ 🖤", callback_data="close_data"), 
+            InlineKeyboardButton("😁 𝐂ʟᴏsᴇ 😁", callback_data="close_data"), 
             InlineKeyboardButton("👻 𝐕ᴘʟᴀʏ 👻", callback_data="play"),
         ]
 ])
