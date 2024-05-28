@@ -10,7 +10,7 @@ from typing import Union, Optional
 import random
 
 random_photo = [
-    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
+    "https://telegra.ph/file/f6d90d9136a7f77809a31.png",
     "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
     "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
     "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
@@ -83,7 +83,7 @@ INFO_TEXT = """**
 **➥ 𝐋ᴀsᴛ 𝐒ᴇᴇɴ ➫‌ **{}
 **➥ 𝐃ᴄ 𝐈ᴅ ➫‌ **{}
 **➥ 𝐁ɪᴏ ➫‌ **`{}`
-
+**@ARTIST_i_NETWORK **
 **☉━━☉━━☉━侖━☉━━☉━━☉**
 """
 
