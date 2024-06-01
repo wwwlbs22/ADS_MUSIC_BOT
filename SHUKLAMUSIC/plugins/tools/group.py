@@ -23,7 +23,7 @@ async def brah3(app :app, message:Message):
              except Exception:
                pass
            try:
-             await message.reply(f"{text} 😉")
+             await message.reply(f"{text} 😅")
            except:
              pass
 
