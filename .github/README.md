@@ -26,4 +26,4 @@
 </h3>
 
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/wwwlbs22/ADS_MUSIC_BOT"> <img src="https://telegra.ph/file/5c6425366736e86e0b0b8.jpg" width="520" height="198.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/wwwlbs22/ADS_MUSIC_BOT"> <img src="https://telegra.ph/file/41d6a380de788299f39b9.jpg" width="520" height="198.45"/></a></p>
